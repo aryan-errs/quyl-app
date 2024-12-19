@@ -1,6 +1,6 @@
 import { StudentFilters } from "@/components/students/StudentFilters";
 import { StudentTable } from "@/components/students/StudentTable";
-import {getStudentsData} from "../../utils/handler.ts"
+import {getStudentsData} from "../../utils/handler"
 
 
 export default async function StudentsPage() {

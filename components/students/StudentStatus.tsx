@@ -1,5 +1,5 @@
 interface StudentStatusProps {
-  status: "active" | "inactive";
+  status: string;
 }
 
 export function StudentStatus({ status }: StudentStatusProps) {
